@@ -1,9 +1,14 @@
 package day6;
 
+import day7.Airplane;
+
 public class Task1 {
     public static void main(String[] args) {
-        // Car car = new Car("mazda", "white", 2018);
-        // car.info();
-        // System.out.println(car.yearDifference(2023));
+        Airplane airplane = new Airplane("nordwind", 2000, 20, 30000);
+        airplane.setLength(30);
+        airplane.setYear(2020);
+        airplane.fillUp(50);
+        airplane.fillUp(100);
+        airplane.info();
     }
 }
