@@ -13,7 +13,8 @@ public class Triangle extends Figure{
     }
 
     public double area() {
-        return ;
+        double halfOfPerimeter = perimeter() / 2;
+        return Math.sqrt(halfOfPerimeter * (halfOfPerimeter - a) * (halfOfPerimeter - b) * (halfOfPerimeter - c));
     }
 
     public double perimeter() {
