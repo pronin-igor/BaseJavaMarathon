@@ -13,7 +13,9 @@ public class Task1 {
         list.add("Mercedes");
 
         System.out.println(list);
-        list.add(2, "Audi");
+        list.add(2, "Wolkswagen");
+        System.out.println(list);
+        list.remove(0);
         System.out.println(list);
     }
 }
